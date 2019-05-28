@@ -1,0 +1,61 @@
+{
+  "name": "uri-modern-campaign",
+  "version": "0.1.0",
+  "description": "URI Modern Campaign is a WordPress theme designed for the University of Rhode Island recruitment campaign site. It is a child theme of URI Modern.",
+  "themeName": "URI Modern Campaign",
+  "textDomain": "uri",
+  "template": "uri-modern",
+  "main": "index.php",
+  "homepage": "https://www.uri.edu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uriweb/uri-modern-campaign.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "University of Rhode Island",
+  "authorURI": "https://today.uri.edu",
+  "humans": [
+    "Brandon Fuller <bjcfuller@uri.edu>",
+    "John Pennypacker <jpennypacker@uri.edu>"
+  ],
+  "license": "GPL-3.0",
+  "licenseURI": "http://www.gnu.org/licenses/gpl.html",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": ">=2.6.1",
+    "gulp-header": "^2.0.7",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jscs": "^4.1.0",
+    "gulp-jshint": ">=2.0.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2"
+  },
+  "engines": {
+    "node": ">=8.9.4",
+    "npm": ">=5.6.0"
+  },
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox >= 20",
+      "iOS >=8"
+    ],
+    "development": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox >= 20",
+      "iOS >=8"
+    ]
+  }
+}
